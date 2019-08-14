@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Eke_Ogmeta</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Social sharing og meta data integration extension for Magento.</summary>
+    <description>This extension adds page meta data in order to accurately show page content when sharing via social widgets and sites.</description>
+    <notes>Initial release of og meta data integration module.</notes>
+    <authors><author><name>Eke Digital</name><user>ekedigital</user><email>dane@ekedigital.com</email></author></authors>
+    <date>2016-09-18</date>
+    <time>00:18:11</time>
+    <contents><target name="magecommunity"><dir name="Eke"><dir name="Ogmeta"><dir name="Helper"><file name="Data.php" hash="df103d102fe0acb19693e1b2a0656677"/></dir><dir name="etc"><file name="adminhtml.xml" hash="982fbe059f750444ae947a8dcf8f208e"/><file name="config.xml" hash="6cbf18b2104aef6d99464263ab3a2f12"/><file name="system.xml" hash="5f145a9b07f4b5cbd42688f9cb3ca476"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="eke"><dir name="ogmeta"><file name="blog.phtml" hash="060f0a777846496883441c2075860981"/><file name="blog_post.phtml" hash="9ac3af92d391d213321e129054370a98"/><file name="category.phtml" hash="cb9b73a4c5ba10f92f205a64d2d7d5ef"/><file name="cms.phtml" hash="060f0a777846496883441c2075860981"/><file name="home.phtml" hash="060f0a777846496883441c2075860981"/><file name="product.phtml" hash="88aea7d886063345cdefe95df91d3c11"/></dir></dir></dir><dir name="layout"><file name="eke_ogmeta.xml" hash="23f069d209cf28c6f5cc2ee0eaaced5d"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Eke_Ogmeta.xml" hash="0db8296bd9d9b8fd76bbced04845d67b"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_Core_Helper_Abstract</name><channel>community</channel><min>1.6</min><max>1.9</max></package></required></dependencies>
+</package>
