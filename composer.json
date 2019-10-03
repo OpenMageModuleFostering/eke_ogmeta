@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Eke_Ogmeta",
+    "name": "openmage-module-fostering\/eke_ogmeta",
     "type": "magento-module",
-    "license": "OSL-v3.0",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Social sharing og meta data integration extension for Magento.",
     "authors": [
